@@ -23,7 +23,7 @@ input("Press ENTER after login into Whatsapp Web and your chats are visible.")
 
 for column in excel_data['Contact'].tolist():
     try:
-        url = 'https://web.whatsapp.com/send?phone={}&text={}'.format(excel_data['Contact'][count], excel_data['Msg2'][0])
+        url = 'https://web.whatsapp.com/send?phone={}&text={}'.format(excel_data['Contact'][count], excel_data['Message'][count])
         sent = False
         # It tries 3 times to send a message in case if there any error occurred
         driver.get(url)
