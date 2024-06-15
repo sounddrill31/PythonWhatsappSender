@@ -1,6 +1,5 @@
 # Program to send bulk messages through WhatsApp web from an excel sheet without saving Contact numbers
-# Author @inforkgodara
-# https://github.com/sounddrill31/whatsapp-bulk-messages-without-saving-contacts
+# Original author @inforkgodara
 
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
